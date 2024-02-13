@@ -1,0 +1,14 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+@layer utilities{
+   @import "./tailwind/tailwindLayers";
+}
+
+@import './utilities/theme';
+@import './modules/navigation';
+@import './modules/cursor';
+
+
+
+

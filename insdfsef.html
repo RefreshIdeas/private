@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    aasfa
+<script>
+    //program1
+
+const checkShirtprice = function (shirtColor, BasePrice) {
+  if (shirtColor === "Red") {
+    // Corrected comparison operator from "=" to "==="
+    const redPrice = BasePrice + 300;
+    return `So red price cost will be ${redPrice}`;
+  } else if (shirtColor === "Blue") {
+    // Corrected comparison operator from "=" to "==="
+    const bluePrice = BasePrice + 500;
+    return `So red price cost will be ${bluePrice}`;
+  } else if (shirtColor === "Green") {
+    // Corrected comparison operator from "=" to "==="
+    const greenPrice = BasePrice + 700;
+    return So red price cost will be ${greenPrice};
+  } else {
+    // Handle other cases where shirtColor is not Red, Blue, or Green
+    return "Color not supported"; // or you can choose to return some default value
+  }
+};
+
+const shirtDesign = ["Red", "Blue", "Green"];
+let choice = prompt("which color Shirt do you want");
+if (shirtDesign.includes(choice)) {
+  alert(checkShirtprice(choice, 500));
+
+} else {
+  alert("Color not supported");
+}
+
+//program2
+const checkShirtprice = function(shirtColor, BasePrice){
+  if(shirtColor === "Red"){ // Corrected comparison operator from "=" to "==="
+      const redPrice = BasePrice + 300;
+      return redPrice;
+  } else if(shirtColor === 'Blue'){ // Corrected comparison operator from "=" to "==="
+      const bluePrice = BasePrice + 500;
+      return bluePrice;
+  } else if(shirtColor === 'Green'){ // Corrected comparison operator from "=" to "==="
+      const greenPrice = BasePrice + 700;
+      return greenPrice;
+  } else {
+      // Handle other cases where shirtColor is not Red, Blue, or Green
+      return "Color not supported"; // or you can choose to return some default value
+  }
+}
+
+const shirtDesign = ['Red', 'Blue', 'Green'];
+const checkPrice = [checkShirtprice(shirtDesign[0], 100), checkShirtprice(shirtDesign[1], 100), checkShirtprice(shirtDesign[2], 100)];
+console.log(checkPrice);
+</script>
+
+</body>
+</html>

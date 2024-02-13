@@ -1,0 +1,29 @@
+// images🚩🚩🚩🚩
+.img-full{
+    @apply object-cover object-center
+}
+
+
+// flex🚩🚩🚩🚩
+.flex_all_center{
+    @apply justify-center items-center flex
+}
+
+.flex_v_center{
+    @apply items-center flex
+}
+
+.flex_h_center{
+    @apply justify-center-center flex
+}
+
+
+//scrollbars 🚩🚩🚩🚩
+.no-scrollbar::-webkit-scrollbar {
+    display: none;
+}
+/* Hide scrollbar for IE, Edge and Firefox */
+.no-scrollbar {
+    -ms-overflow-style: none;  /* IE and Edge */
+    scrollbar-width: none;  /* Firefox */
+}
